@@ -14,7 +14,7 @@ public class AdapterMain {
 		List<Shape> shapes = new ArrayList<Shape>();
 		shapes.add(new LineAdapter(line));
 		shapes.add(new RectangleAdapter(rectangle));
-		shapes.add(new CircleAdapter(Circle));
+		shapes.add(new CircleAdapter(circle));
 
 		// Code can now operate using common interface
 		int x1 = 7;
